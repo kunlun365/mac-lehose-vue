@@ -1,0 +1,23 @@
+:root {
+  --bg: #ffffff;
+  --ink: #28312c;
+  --muted: #78827c;
+  --green: #8bbd9c;
+  --green-dark: #47785b;
+  --line: #d6e0d8;
+  --red: #c94e4e;
+  --lightred: lightcoral;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont;
+  -webkit-font-smoothing: antialiased;
+}

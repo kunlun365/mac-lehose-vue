@@ -1,0 +1,20 @@
+{
+  "name": "mac-lehose-vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/make-thumbs.mjs && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.44",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.10",
+    "sharp": "^0.35.5",
+    "vite": "^8.3.4"
+  }
+}
